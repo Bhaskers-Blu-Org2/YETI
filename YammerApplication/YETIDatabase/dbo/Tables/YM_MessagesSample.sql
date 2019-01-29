@@ -12,6 +12,7 @@
     [sender_type]             NVARCHAR (100) NULL,
     [sender_name]             NVARCHAR (300) NULL,
     [sender_email]            NVARCHAR (300) NULL,
+	[title]						NVARCHAR(max) NULL,
     [body]                    NVARCHAR (MAX) NULL,
     [api_url]                 NVARCHAR (MAX) NULL,
     [attachments]             NVARCHAR (MAX) NULL,
